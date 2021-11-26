@@ -1,0 +1,164 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #f13333, #d92570, #c118a5, #eb9ac9, #e4d7e3);
+}
+
+.header
+{
+	color: white;
+	font-family: 'cursive';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+.header img
+{
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(248, 216, 216, 0.8);float: none;
+	width: 550px;
+	height: 550px;	
+	text-align: center;
+	margin-left:500px;
+	margin-top: -550px;
+}
+.login_div:hover{
+	background-color: rgb(240, 163, 169);
+	width: 550px;
+}
+.login_div2
+{
+	background: rgba(248, 216, 216, 0.8);float: none;
+	width: 550px;
+	height: 550px;	
+	text-align: center;
+	margin-right:600px;
+	
+}
+.login_div2:hover{
+	background-color: rgb(240, 163, 169);
+	width: 550px;
+}
+
+
+
+.logo
+{
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;
+	border-color: rgb(235, 7, 166);
+	border-style:double;
+	border-width: 5px;
+}
+#login_button:hover{
+	background-color: rgb(212, 108, 181);
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgb(7, 0, 0);border-radius: 05px;
+	color: rgb(255, 224, 179);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: rgb(45, 3, 70);font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+input:hover{
+	background-color: rgb(241, 167, 210);
+	color: rgb(0, 0, 0);
+}
+.color_white
+{
+	color: white;
+	font-family:serif;
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#img1{
+	height: 400px;
+	margin-top: -10px;
+}
+#imglogo {
+	height: 500px;
+}
+#lbl {
+ text-align: left;
+ font-family: cursive;
+}
+#disha{
+	width: 200px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+#h4{
+	text-align: right;
+}
+
+#user_name{
+	font-family:ren;
+}
