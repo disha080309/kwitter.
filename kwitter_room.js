@@ -1,12 +1,14 @@
 const firebaseConfig = {
-      apiKey: "AIzaSyAsoxF0YexRx9jctZCOKCFxN9B7oaK08_Y",
-      authDomain: "kwitter-89c1d.firebaseapp.com",
-      databaseURL: "https://kwitter-89c1d-default-rtdb.firebaseio.com",
-      projectId: "kwitter-89c1d",
-      storageBucket: "kwitter-89c1d.appspot.com",
-      messagingSenderId: "407554900924",
-      appId: "1:407554900924:web:13fc5536719eaa69d821b9"
+      apiKey: "AIzaSyAEMM7oLz4LLiykRdQ78060_x1JWgvdlwk",
+      authDomain: "kwitter-c8281.firebaseapp.com",
+      databaseURL: "https://kwitter-c8281-default-rtdb.firebaseio.com",
+      projectId: "kwitter-c8281",
+      storageBucket: "kwitter-c8281.appspot.com",
+      messagingSenderId: "599358912138",
+      appId: "1:599358912138:web:65f7662f85112ddcd61f73",
+      measurementId: "G-E80T6J8G40"
     };
+    
     
     firebase.initializeApp(firebaseConfig);
     username=localStorage.getItem("user_name")

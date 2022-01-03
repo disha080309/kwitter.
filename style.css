@@ -162,3 +162,8 @@ input:hover{
 #user_name{
 	font-family:ren;
 }
+#back{
+	width: 100px;
+	height: 40px;
+	font-size: medium;
+}
